@@ -3,13 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+  <!--
+  bootstrap
+  -->
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
   <title>Document</title>
 </head>
 <body>
 
   <div id="mainContent">
+
+    <div class="carousel carousel-dark p-4" id="myGallery" data-bs-ride="slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active carousel-item col-xs-6">
+          <img src="img/img1.png" class="img-fluid" alt="">
+        </div>
+
+        <div class="carousel-item col-xs-6">
+          <img src="img/img2.png" class="img-fluid" alt="">
+        </div>
+
+        <div class="carousel-item col-xs-6">
+          <img src="img/img3.png" class="img-fluid" alt="">
+        </div>
+
+        <div class="carousel-item col-xs-6">
+          <img src="img/img4.png" class="img-fluid" alt="">
+        </div>
+
+        <div class="carousel-item col-xs-6">
+          <img src="img/img5.png" class="img-fluid" alt="">
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" data-bs-target="#myGallery" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" data-bs-target="#myGallery" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
     
-  </div>
+</div>
+
+
+  <!--
+  Scripts
+  -->
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="index.js"></script>
+
+
 </body>
 </html>
